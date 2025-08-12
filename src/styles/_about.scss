@@ -17,8 +17,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  flex: 1;
+  justify-content: center;
+  gap: 20px;
   p {
     font-size: 16px;
   }
@@ -26,6 +26,11 @@
     flex-wrap: nowrap;
     font-size: 75px;
   }
+}
+.user > .tech {
+  flex: 1 1 300px;   /* each box starts at 300px, grows & shrinks equally */
+  min-width: 250px;  /* don’t get too narrow on smaller screens */
+  box-sizing: border-box;
 }
 
 .user-details {
