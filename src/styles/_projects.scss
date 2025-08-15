@@ -11,6 +11,7 @@
 }
 
 .user-projects {
+  display:flex;
   margin: 20px auto;
   img {
     max-width: 100%;
@@ -27,16 +28,20 @@
   p {
     margin-right: 5px;
   }
+  .proj-des{
+    display:flex;
+    flex-direction:column;
+  }
 }
 
 .contents {
   @media only screen and (min-width: $cut) {
-    margin-left: 0;
-    width: 48%;
+    margin-left: 10px;
+    justify-content: center;
   }
 }
 
-.contents-right {
+/*.contents-right {
   @media only screen and (min-width: $cut) {
     float: right;
     margin-top: -5%;
@@ -65,7 +70,7 @@
       float: left;
     }
   }
-}
+}*/
 
 .project-link {
   display: inline-block;
