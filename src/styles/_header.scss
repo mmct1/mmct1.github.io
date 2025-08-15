@@ -34,14 +34,12 @@
     }
   }
 
-  .profile-photo{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    max-width:100%;
-    width:300px;
-    height:300px;
-    border: radius 50%;
+  .profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
   }
 
   .site-description {
