@@ -4,11 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  
-  {% if site.profile_image %}
-  <img src="{{ site.profile_image }}" alt="{{ site.username }}" class="profile-img" width="120">
-  {% endif %}
-  <h2>{{ site.username }}</h2>
 
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
