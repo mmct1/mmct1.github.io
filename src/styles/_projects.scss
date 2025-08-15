@@ -31,12 +31,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1; 
-  min-width: 250px; 
+  flex: 1;
+  min-width: 250px;
 
   img {
-    max-width: 100%;
-    height: 50px;
+    width: 120px;     
+    height: 80px;    
+    object-fit: cover; 
     border-radius: 5px;
   }
 
