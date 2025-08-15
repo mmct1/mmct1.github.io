@@ -3,7 +3,9 @@
       <h1>
         <span class="site-title">{{site.username}}</span>
         <span class="site-description">{{site.user_title}}</span>
-        <span class="site-photo">{{site.profile_image}}</span>
+        {% if site.profile_image %}
+          <img src="{{ site.profile_image }}" alt="{{ site.username }}" class="profile-img">
+        {% endif %}
       </h1>
       <div class="header-icons">
         <a aria-label="Resume" href="https://docs.google.com/document/d/e/2PACX-1vQII-nYj00hEHNrUNOnunUF0IiC4u2OSLvhfdgi96G-QKjBcl6RNjSEUoYQxt84vpZavqoBLrsb8U6F/pub?embedded=true"><i class="icon fa fa-regular fa-file"></i></a>
