@@ -23,7 +23,7 @@ navigation: # Navigation links
 tagline: >
   Data Science Fellow @ Cuny Tech Prep, Cohort 11
 
-hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: posts/header_img_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 #email: your-email@domain.com # email for form submission
 
